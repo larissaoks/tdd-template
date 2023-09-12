@@ -1,0 +1,36 @@
+{
+  "name": "tdd-template",
+  "version": "1.0.0",
+  "description": "TDD Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watchAll --coverage=true --verbose",
+    "prettier:fix": "prettier --write .",
+    "prettier:verify": "prettier --check .",
+    "eslint:fix": "eslint --cache --fix",
+    "eslint:verify": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larissaoks/tdd-template.git"
+  },
+  "author": "Larissa de Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larissaoks/tdd-template/issues"
+  },
+  "homepage": "https://github.com/larissaoks/tdd-template#readme",
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^27.2.2",
+    "eslint-plugin-jest-formatting": "^3.1.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-yml": "^1.8.0",
+    "jest": "^29.6.1",
+    "prettier": "^3.0.0"
+  }
+}
